@@ -1,0 +1,51 @@
+type Query {
+  "Obtenemos la lista de todos los usuarios"
+  users: [User!]!
+  "Iniciamos sesion en el sistema"
+  login(email: String!, password: String!): ResultToken!
+  "Obtener nuestra informacion con el token"
+  me: ResultUser!
+}
+
+type Mutation {
+  "Registro de los usuarios en el sistema"
+  register(user: UserInput!): ResultUser!
+}
+
+"Schema del usuario"
+type User {
+  id: ID
+  name: String!
+  lastname: String!
+  email: String!
+  password: String
+  registerDate: String!
+}
+
+"Input para cuando vamos a agregar un nuevo usuario usando el mutation register"
+input UserInput {
+  name: String!
+  lastname: String!
+  email: String!
+  password: String!
+}
+
+"Schema para la respuesta de cuando hacemos uso del query me"
+type ResultUser {
+    "True para cuando obtenemos correctamente al usuario, false cuando es erroneo"
+    status: Boolean!
+    "Mensaje de respuesta"
+    message: String!
+    "El usuario devuelvo si todo esta correcto"
+    user: User
+}
+
+"Schema para la respuesta de cuando el usuario se intenta loguear"
+type ResultToken {
+    "True para login exitoso, false para login fallido"
+    status: Boolean!
+    "Mensaje de respuesta"
+    message: String!
+    "Token recibido en caso de login correcto"
+    token: String
+}
