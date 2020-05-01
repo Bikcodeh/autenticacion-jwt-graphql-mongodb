@@ -11,8 +11,8 @@ todos los usuarios registrados.
 
 Con el Mutation lo que hacemos es registrar a un usuario en la base de datos.
 
-![definitions](https://github.com/Bikcodeh/autenticacion-jwt-graphql-mongodb/blob/master/src/assets/pictures/definitions.png?raw=true "definitions") 
-![login query](https://github.com/Bikcodeh/autenticacion-jwt-graphql-mongodb/blob/master/src/assets/pictures/login_query.png?raw=true "login query") 
-![me query](https://github.com/Bikcodeh/autenticacion-jwt-graphql-mongodb/blob/master/src/assets/pictures/me_query.png?raw=true "me query") 
-![register mutation](https://github.com/Bikcodeh/autenticacion-jwt-graphql-mongodb/blob/master/src/assets/pictures/register_mutation.png?raw=true "register mutation") 
-![users query](https://github.com/Bikcodeh/autenticacion-jwt-graphql-mongodb/blob/master/src/assets/pictures/users_query.png?raw=true "users query") 
+![definitions](https://github.com/Bikcodeh/autenticacion-jwt-graphql-mongodb/blob/master/src/assets/pictures/definitions.PNG?raw=true "definitions") 
+![login query](https://github.com/Bikcodeh/autenticacion-jwt-graphql-mongodb/blob/master/src/assets/pictures/login_query.PNG?raw=true "login query") 
+![me query](https://github.com/Bikcodeh/autenticacion-jwt-graphql-mongodb/blob/master/src/assets/pictures/me_query.PNG?raw=true "me query") 
+![register mutation](https://github.com/Bikcodeh/autenticacion-jwt-graphql-mongodb/blob/master/src/assets/pictures/register_mutation.PNG?raw=true "register mutation") 
+![users query](https://github.com/Bikcodeh/autenticacion-jwt-graphql-mongodb/blob/master/src/assets/pictures/users_query.PNG?raw=true "users query") 
